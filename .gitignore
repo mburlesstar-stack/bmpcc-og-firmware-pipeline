@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.spec
+
+# Never commit Blackmagic firmware, captures, installers or backups
+data-bd73*.bin
+data-bd*.bin
+*.stock.*
+*.msi
+*.zip
+*.sr
+*.pvs
